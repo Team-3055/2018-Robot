@@ -9,8 +9,8 @@ package org.usfirst.frc.team3055.robot;
 public class RobotMap {
 	public static int fRightDriveTalon = 1;
 	public static int fLeftDriveTalon = 0;
-	public static int bRightDriveTalon = 2;
-	public static int bLeftDriveTalon = 3;
+	public static int rArmTalon = 2;
+	public static int lArmTalon = 3;
 	
 
 	// If you are using multiple modules, make sure to define both the port

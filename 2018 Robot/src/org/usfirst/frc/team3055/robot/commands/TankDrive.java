@@ -24,8 +24,8 @@ public class TankDrive extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	double leftTrain = Robot.oi.driveController0.getY();
-    	double rightTrain = Robot.oi.driveController1.getY();
+    	double leftTrain = Robot.oi.driveController1.getY();
+    	double rightTrain = Robot.oi.driveController2.getY();
     	Robot.drivetrain.Drive(leftTrain, rightTrain);
     }
 

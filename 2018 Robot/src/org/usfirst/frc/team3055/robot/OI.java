@@ -10,8 +10,26 @@ import edu.wpi.first.wpilibj.Joystick;
  */
 public class OI {
 	
-	public Joystick driveController0 = new Joystick(0);
+    // Create the joystick and the 8 buttons on it
+	public Joystick driveController2 = new Joystick(0);
+	Button lbutton1 = new JoystickButton(driveController2, 1),
+			lbutton2 = new JoystickButton(driveController2, 2),
+			lbutton3 = new JoystickButton(driveController2, 3),
+			lbutton4 = new JoystickButton(driveController2, 4),
+			lbutton5 = new JoystickButton(driveController2, 5),
+			lbutton6 = new JoystickButton(driveController2, 6),
+			lbutton7 = new JoystickButton(driveController2, 7),
+			lbutton8 = new JoystickButton(driveController2, 8);
 	public Joystick driveController1 = new Joystick(1);
+	Button rbutton1 = new JoystickButton(driveController1, 1),
+			rbutton2 = new JoystickButton(driveController1, 2),
+			rbutton3 = new JoystickButton(driveController1, 3),
+			rbutton4 = new JoystickButton(driveController1, 4),
+			rbutton5 = new JoystickButton(driveController1, 5),
+			rbutton6 = new JoystickButton(driveController1, 6),
+			rbutton7 = new JoystickButton(driveController1, 7),
+			rbutton8 = new JoystickButton(driveController1, 8);
+	
 
 	
 	//// CREATING BUTTONS

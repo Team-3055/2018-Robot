@@ -3,8 +3,8 @@ package org.usfirst.frc.team3055.robot;
 import edu.wpi.first.wpilibj.IterativeRobot; 
 import edu.wpi.first.wpilibj.command.Command; 
 import edu.wpi.first.wpilibj.command.Scheduler;
-import edu.wpi.first.wpilibj.command.Subsystem; ;
-import edu.wpi.first.wpilibj.livewindow.LiveWindow; ;
+import edu.wpi.first.wpilibj.command.Subsystem;
+import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
